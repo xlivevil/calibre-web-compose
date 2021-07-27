@@ -1,4 +1,7 @@
 version: '3'
+volumes:
+  static:
+  web:
 
 services:
   calibre-web:
@@ -13,14 +16,18 @@ services:
     volumes:
       - ./config:/config
       - ./books:/books
+      - static:/app/calibre-web/cps/static
     restart: unless-stopped
 
   nginx:
     build:
-      context: .
-      dockerfile: ./nginx/Dockerfile
+      context: ./nginx
+      dockerfile: ./Dockerfile
     image: calibre-nginx
     container_name: calibre-nginx
+    volumes:
+      - static:/static
+      - ./static/js/libs/pdfjs-2.9.359-dist/web:/pdfjs/web
     ports:
       - 8083:8083
 
