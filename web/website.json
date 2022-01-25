@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://z-lib.org/",
+        "name": "Z-Lib",
+        "description": "The world's largest ebook library",
+        "logo": "https://z-lib.org/favicon.ico?v=1"
+    },
+    {
+        "url": "http://libgen.rs/",
+        "name": "Library Genesis",
+        "description": "Library Genesis is a scientific community targeting collection of books on natural science disciplines and engineering.",
+        "logo": "http://libgen.rs/favicon.ico"
+    },
+    {
+        "url": "https://www.gutenberg.org/",
+        "name": "Project Gutenberg",
+        "description": "Project Gutenberg is a free online archive of electronic works published by the Project Gutenberg Association. It was created by volunteers and is supported by the Project Gutenberg Association, the Public Domain, and the Etexts Project.",
+        "logo": "https://www.gutenberg.org/gutenberg/pg-logo-129x80.png"
+    },
+    {
+        "url": "https://arxiv.org/",
+        "name": "arXiv",
+        "description": "arXiv is a free online journal of high-quality scientific papers and technical reports. It is supported by the US National Science Foundation and the European Research Council.",
+        "logo": "https://arxiv.org/favicon.ico"
+    },
+    {
+        "url": "https://libgen.me/",
+        "name": "Libgen",
+        "description": "The libgen.me links aggregator is a community aiming at collecting and cataloging items descriptions for the most part of scientific, scientific and technical directions, as well as file metadata. In addition to the descriptions, the aggregator contains only links to third-party resources hosted by users.",
+        "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDEiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0MSA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuOSAwLjY2MDRMMCA0LjUzMDRWNDQuMDgwNEw2LjkgNDcuOTUwNEw0MSAyOC4yNzA0VjIwLjM0MDRMNi45IDAuNjYwNFpNMzguMDEgMjAuOTMwNEwxMy43MSAzNS4wMTA0VjMwLjYxMDRMMzAuNDIgMjAuOTYwNEwzLjAyIDUuMTMwNEw2Ljg5IDIuOTYwNEwzOC4wMSAyMC45MzA0Wk0yMC42MSAyNC4zMTA0TDEzLjcxIDI4LjI5MDRWMjAuMzIwNEwyMC42MSAyNC4zMTA0Wk0yIDYuODUwNEwyNi40MiAyMC45NTA0TDIyLjYxIDIzLjE1MDRMNS45IDEzLjUxMDRWNDUuMTEwNEwyIDQyLjkxMDRWNi44NTA0Wk03LjkgNDUuMDgwNFYxNi45NzA0TDExLjcxIDE5LjE3MDRWMzguNDcwNEwzOSAyMi42NjA0VjI3LjEyMDRMNy45IDQ1LjA4MDRaIiBmaWxsPSIjMEQ4NEZBIi8+Cjwvc3ZnPgo="
+    }
+]

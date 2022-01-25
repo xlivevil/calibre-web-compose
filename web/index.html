@@ -5,46 +5,77 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>电子书库</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>私人电子书库</h1>
-						<p>个人收集 &nbsp;&bull;&nbsp; 不外传 &nbsp;&bull;&nbsp; 站点出错请邮件通知</p>
-						<p><a class="enter" style="font-size: 1.75em;" href="calibre-web">进入</a></p>
-						<nav>
-							<ul>
-								<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-								<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-								<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-								<li><a title="源码配置" href="https://github.com/xlivevil/calibre-web-compose" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a title="发送邮件" href="mailto:xlivevil@aliyun.com?subject=来自电子书库" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+	<title>电子书库</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+<body class="is-preload">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
 
+			<!-- Header -->
+			<header id="header">
+				<h1>私人电子书库</h1>
+				<p>个人收集 &nbsp;&bull;&nbsp; 不外传 &nbsp;&bull;&nbsp; 站点出错请邮件通知</p>
+				<p><a class="enter" style="font-size: 1.75em;" href="calibre-web">进入</a></p>
+				<nav>
+					<ul>
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<li><a title="源码配置" href="https://github.com/xlivevil/calibre-web-compose"
+								class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a title="发送邮件" href="mailto:xlivevil@aliyun.com?subject=来自电子书库"
+								class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a title="书站推荐" href="#" class="icon fas fa-book" onclick="showCollections()"><span
+									class="label">ebook</span></a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; Xlivevil. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+			</footer>
+
+			<div class="fullscreen-wrapper" id="collections" style="display:none">
+				<a href="#" class="fullscreen-background" onclick="closeCollections()">
+					<div class="fullscreen-background"></div>
+				</a>
+				<div class="container">
+					<ul class="website-list" id="website-list">
+
+
+					</ul>
+				</div>
 			</div>
+
+
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+	</div>
+
+
+	<script>
+		window.onload = function () {
+			document.body.classList.remove('is-preload');
+		}
+		window.ontouchmove = function () {
+			return false;
+		}
+		window.onorientationchange = function () {
+			document.body.scrollTop = 0;
+		}
+	</script>
+	<script src="assets/js/websitecard.js"></script>
+</body>
+
 </html>

@@ -139,7 +139,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			/* font-weight: 400; */
 		}
 
 		.icon > .label {
@@ -1079,3 +1079,52 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+
+
+		.container {
+			display: block;
+			margin: auto;
+			width: 20em;
+			align-items: center;
+			position: relative;
+			height: 50%;
+			background: rgba(255,255,255,0.5);
+			bottom: 75%;
+			overflow:hidden;
+
+		}
+
+		.container ul {
+			padding:0;
+			height: 100%;
+			overflow-y: scroll;
+		}
+
+		.container ul::-webkit-scrollbar {
+
+			display: none; /* Chrome Safari */
+		  
+		  }
+
+		.container ul li a :hover{
+			/* background:rgba(255,255,255,0.6); */
+		}
+
+		.card{
+			width: 20em;
+			height: auto;
+		}
+
+		.fullscreen-wrapper{
+			height: 100%;
+			width: 100%;
+			position:absolute;
+			top:0;
+		}
+		
+		.fullscreen-background {
+			height: 100%;
+			width: 100%;
+
+		}
