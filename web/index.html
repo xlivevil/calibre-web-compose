@@ -24,7 +24,7 @@
 			<!-- Header -->
 			<header id="header">
 				<h1>私人电子书库</h1>
-				<p>个人收集 &nbsp;&bull;&nbsp; 不外传 &nbsp;&bull;&nbsp; 站点出错请邮件通知</p>
+				<p>个人收集 &nbsp;&bull;&nbsp; 勿外传 &nbsp;&bull;&nbsp; 站点出错请邮件通知</p>
 				<p><a class="enter" style="font-size: 1.75em;" href="calibre-web">进入</a></p>
 				<nav>
 					<ul>
@@ -67,6 +67,7 @@
 	<script>
 		window.onload = function () {
 			document.body.classList.remove('is-preload');
+			loadCollections();
 		}
 		window.ontouchmove = function () {
 			return false;

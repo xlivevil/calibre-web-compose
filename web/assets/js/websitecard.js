@@ -1,10 +1,11 @@
-fetch("/website.json").then(response => response.json()).then(data => {
-    let websitelist = document.getElementById("website-list");
+function loadCollections() {
+    fetch("/website.json").then(response => response.json()).then(data => {
+        let websitelist = document.getElementById("website-list");
 
-    for (let i = 0; i < data.length; i++) {
-        let website = data[i];
+        for (let i = 0; i < data.length; i++) {
+            let website = data[i];
 
-        websitelist.innerHTML += `
+            websitelist.innerHTML += `
         <li>
         <a href="${website.url}" >
         <div class="card">
@@ -21,8 +22,9 @@ fetch("/website.json").then(response => response.json()).then(data => {
         </a>
         </li>
         `;
-    }
-});
+        }
+    });
+}
 
 function showCollections() {
     let websites = document.getElementById("collections");

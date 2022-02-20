@@ -28,5 +28,11 @@
         "name": "Libgen",
         "description": "The libgen.me links aggregator is a community aiming at collecting and cataloging items descriptions for the most part of scientific, scientific and technical directions, as well as file metadata. In addition to the descriptions, the aggregator contains only links to third-party resources hosted by users.",
         "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDEiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0MSA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuOSAwLjY2MDRMMCA0LjUzMDRWNDQuMDgwNEw2LjkgNDcuOTUwNEw0MSAyOC4yNzA0VjIwLjM0MDRMNi45IDAuNjYwNFpNMzguMDEgMjAuOTMwNEwxMy43MSAzNS4wMTA0VjMwLjYxMDRMMzAuNDIgMjAuOTYwNEwzLjAyIDUuMTMwNEw2Ljg5IDIuOTYwNEwzOC4wMSAyMC45MzA0Wk0yMC42MSAyNC4zMTA0TDEzLjcxIDI4LjI5MDRWMjAuMzIwNEwyMC42MSAyNC4zMTA0Wk0yIDYuODUwNEwyNi40MiAyMC45NTA0TDIyLjYxIDIzLjE1MDRMNS45IDEzLjUxMDRWNDUuMTEwNEwyIDQyLjkxMDRWNi44NTA0Wk03LjkgNDUuMDgwNFYxNi45NzA0TDExLjcxIDE5LjE3MDRWMzguNDcwNEwzOSAyMi42NjA0VjI3LjEyMDRMNy45IDQ1LjA4MDRaIiBmaWxsPSIjMEQ4NEZBIi8+Cjwvc3ZnPgo="
+    },
+    {
+        "url": "ttps://sci-hub.st/",
+        "name": "Sci-Hub",
+        "description": "Sci-Hub: removing barriers in the way of science",
+        "logo": "https://sci-hub.st/favicon.ico"
     }
 ]
