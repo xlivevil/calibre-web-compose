@@ -12,6 +12,8 @@ services:
       - TZ=Asia/Shanghai
       - DOCKER_MODS=linuxserver/calibre-web:calibre #optional
       - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
+      - HTTP_PROXY=http://calibre-v2ray:10809
+      - HTTPS_PROXY=http://calibre-v2ray:10809
     volumes:
       - ./config:/config
       - ./books:/books
@@ -44,3 +46,10 @@ services:
       - 22000:22000/tcp
       - 22000:22000/udp
     restart: unless-stopped
+
+  v2ray:
+    build:
+      context: ./v2ray
+      dockerfile: ./Dockerfile
+    image: calibre-v2ray
+    container_name: calibre-v2ray
