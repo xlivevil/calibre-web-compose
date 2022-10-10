@@ -45,3 +45,10 @@ services:
       - 22000:22000/tcp
       - 22000:22000/udp
     restart: unless-stopped
+
+  xray:
+    build:
+      context: ./xray
+      dockerfile: ./Dockerfile
+    image: calibre-xray
+    container_name: calibre-xray
