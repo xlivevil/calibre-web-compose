@@ -40,7 +40,8 @@ services:
       - PUID=1000
       - PGID=1000
     volumes:
-      - ./:/var/syncthing/
+      - ./syncthing/:/var/syncthing/
+      - ./books:/books 
     ports:
       - 8384:8384
       - 22000:22000/tcp
